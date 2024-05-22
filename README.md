@@ -1,18 +1,18 @@
-# @utility/string
+# @utility/number
 
-[![JSR Version](https://jsr.io/badges/@utility/string)](https://jsr.io/@utility/string)
-[![JSR Score](https://jsr.io/badges/@utility/string/score)](https://jsr.io/@utility/string/score)
-[![Test Status](https://github.com/utilityjs/string/actions/workflows/test.yml/badge.svg)](https://github.com/utilityjs/string/actions/workflows/test.yml)
-[![Coverage](https://codecov.io/gh/utilityjs/string/branch/main/graph/badge.svg?token=OzlniGFmNp)](https://codecov.io/gh/utilityjs/string)
-[![License](https://img.shields.io/github/license/utilityjs/string.svg?label=License)](/LICENSE)
+[![JSR Version](https://jsr.io/badges/@utility/number)](https://jsr.io/@utility/number)
+[![JSR Score](https://jsr.io/badges/@utility/number/score)](https://jsr.io/@utility/number/score)
+[![Test Status](https://github.com/utilityjs/number/actions/workflows/test.yml/badge.svg)](https://github.com/utilityjs/number/actions/workflows/test.yml)
+[![Coverage](https://codecov.io/gh/utilityjs/number/branch/main/graph/badge.svg?token=OzlniGFmNp)](https://codecov.io/gh/utilityjs/number)
+[![License](https://img.shields.io/github/license/utilityjs/number.svg?label=License)](/LICENSE)
 
 Collection of string utility functions
 
 ## Usage
 
 ```typescript
-import { underscoreToTitleCase } from "@utility/string";
+import { random } from "@utility/number";
 
-underscoreToTitleCase("hello_world");
-// => Hello World
+random(10, 20);
+// => 14
 ```
