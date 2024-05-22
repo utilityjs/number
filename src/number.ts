@@ -7,7 +7,7 @@
  * @param {boolean} [floating=false] - If true, generates a floating-point number.
  * @returns {number} - The random number.
  */
-export function random(min: number, max: number, floating = false) {
+export function random(min: number, max: number, floating = false): number {
   if (floating) {
     // Generate a floating-point number
     return Math.random() * (max - min) + min;
