@@ -1,0 +1,23 @@
+{
+  "name": "@utility/number",
+  "version": "0.0.1",
+  "tasks": {
+    "coverage": "deno task test --coverage=./dist/coverage && deno coverage --include=src --lcov ./dist/coverage > ./dist/coverage/lcov.info",
+    "test": "deno test"
+  },
+  "exports": "./mod.ts",
+  "exclude": [
+    "dist",
+    ".run",
+    ".github/",
+    "version.json",
+    "test_deps.ts"
+  ],
+  "publish": {
+    "exclude": [
+      "test/"
+    ]
+  },
+  "imports": {
+  }
+}
